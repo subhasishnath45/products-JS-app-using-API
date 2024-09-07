@@ -9,7 +9,7 @@ const fetchProducts = async () => {
     const data = await resp.json();
     return data;
   } catch (error) {
-    productsDOM.innerHTML = '<p class="error">there was an error</p>';
+    productsDOM.innerHTML = '<p class="error">there is an error</p>';
   }
 };
 
